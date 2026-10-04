@@ -1,14 +1,14 @@
 # students-registration-system
 
-# System Description
+## System Description
 The Student Registration System is a simple web-based information system 
 designed to manage student registration records.
 
-# Purpose
+## Purpose
 The purpose of this system is to make student registration easier,
 faster, and more organized.
 
-# Main Features
+##  Main Features
 - Register students
 - Enter student ID
 - Enter student name
@@ -18,21 +18,21 @@ faster, and more organized.
 - Display registered students
 - Validate required inputs
 
-# Main Functions
+## Main Functions
 
-# Student Registration
+### Student Registration
 Allows users to enter and register student information.
 
-# Input Validation
+### Input Validation
 Required fields prevent incomplete student information from being submitted.
 
-# Student List
+### Student List
 Displays registered students in a table.
 
-# Form Reset
+### Form Reset
 Clears the form after successful registration.
 
-# Contributors
+## Contributors
 
 - Member 1 Gaoat, Rachelle Ann - Fronted Developer (HTML/CSS)
 - Member 2 Merque, Angel Nicole - GitHub Repository Management
