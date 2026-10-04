@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>👩‍🎓 Students Registration System</h1>
+
+        <form id="studentForm">
+            <input type="text" id="studentId" placeholder="Student ID" required>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="text" id="course" placeholder="Course" required>
+
+            <select id="year" required>
+                <option value="">Select Year Level</option>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+            </select>
+
+            <input type="email" id="email" placeholder="Email" required>
+
+            <button type="submit">Register Student</button>
+        </form>
+
+        <h2>Registered Students</h2>
+
+
+<input type="text" id="searchInput" placeholder="Search student..." />
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Year Level</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+
+            <tbody id="studentList"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
